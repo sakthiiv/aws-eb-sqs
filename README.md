@@ -45,16 +45,19 @@ Instructions for setting up Sender and Receiver Application in Amazon Web Servic
 ***
 > **Adding Permission.**
 ***
+
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7671383/307ba620-fceb-11e4-8e3c-92391a9ad731.jpg)
 
 ***
 > **Choosing options.**
 ***
+
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7671385/30887cd8-fceb-11e4-8134-cc2235d5abe3.jpg)
 
 ***
 > **Your Queue `URL` will be available in the details tab. We will be using this `URL` for communication.**
 ***
+
 ## 3. Setting up Java Receiver
 
 > **[Download](https://drive.google.com/file/d/0BxLqTramfZucOGFDVkdLQmdDNHM/view?pli=1) Receiver.war file here.**
@@ -66,9 +69,11 @@ Instructions for setting up Sender and Receiver Application in Amazon Web Servic
 + `AWSCredentials.properties` - Provide the AWS Credentials (Access Key Id and Secret Access Key)	
 + `whoami.txt` - Enter your name and Bits ID	
 + `web.xml` - Provide the Queue `URL`
+
 ***
 > **Navigate to Elastic Beanstalk.**
 ***
+
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7673732/b6abe124-fd36-11e4-996c-0349b12b9103.jpg)
 
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7674896/8e985114-fd4e-11e4-88f3-0ccc7ff4e2c0.jpg)
@@ -76,21 +81,25 @@ Instructions for setting up Sender and Receiver Application in Amazon Web Servic
 ***
 > **Provide a name for the application.**
 ***
+
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7673723/b67a90ec-fd36-11e4-899b-b3b77ecc06a2.jpg)
 
 ***
 > **Create a new Web Server.**
 ***
+
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7673725/b68500cc-fd36-11e4-9307-11e8f3a42fbd.jpg)
 
 ***
 > **Choose a default profile.**
 ***
+
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7673724/b67c4a86-fd36-11e4-8898-8cda33e8bfff.jpg)
 
 ***
 > **Choose an enviroment type.**
 ***
+
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7673726/b68a289a-fd36-11e4-850e-5483af72ea67.jpg)
 
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7673728/b693dd22-fd36-11e4-9160-fb11498a2074.jpg)
@@ -98,11 +107,13 @@ Instructions for setting up Sender and Receiver Application in Amazon Web Servic
 ***
 > **Upload your zip file.**
 ***
+
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7673729/b69cd3c8-fd36-11e4-9a21-2bb4e3a9666e.jpg)
 
 ***
 > **Provide an environment URL.**
 ***
+
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7673730/b6a13d8c-fd36-11e4-88d2-231f194e78df.jpg)
 
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7673731/b6a5909e-fd36-11e4-9e4a-b8e128eb58dd.jpg)
