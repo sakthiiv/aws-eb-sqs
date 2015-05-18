@@ -71,19 +71,15 @@ Instructions for setting up Sender and Receiver Application in Amazon Web Servic
 > We need to make changes to the following files for setting up Receiver in Tomcat.
 
 > Make these changes in the Receiver.war file without extracting.
-...
-1. AWSCredentials.properties
-	
-	Provide the AWS Credentials (Access Key Id and Secret Access Key)
-	
+
+----
+1. AWSCredentials.properties	
+	Provide the AWS Credentials (Access Key Id and Secret Access Key)	
 2. whoami.txt
-
-	Enter your name and Bits ID
-	
+	Enter your name and Bits ID	
 3. web.xml
-
 	Provide the Queue `URL`
-...
+----
 
 ***
 
