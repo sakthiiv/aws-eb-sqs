@@ -35,7 +35,11 @@ Instructions for setting up Sender and Receiver Application in Amazon Web Servic
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7671386/309c8a7a-fceb-11e4-9ed8-6c3188f73209.jpg)
 
 
+
+
 ***
+
+
 
 
 ## 2. Creating an SQS Queue
@@ -44,24 +48,40 @@ Instructions for setting up Sender and Receiver Application in Amazon Web Servic
 
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7671381/306ee926-fceb-11e4-8d36-9fac88a060bf.jpg)
 
+
+
 ***
+
+
 
 > **Adding Permission.**
 
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7671383/307ba620-fceb-11e4-8e3c-92391a9ad731.jpg)
 
+
+
 ***
+
+
 
 > **Choosing options.**
 
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7671385/30887cd8-fceb-11e4-8134-cc2235d5abe3.jpg)
 
+
+
 ***
+
+
 
 > **Your Queue `URL` will be available in the details tab. We will be using this `URL` for communication.**
 
 
+
+
 ***
+
+
 
 
 ## 4. Setting up Java Receiver
@@ -72,39 +92,22 @@ Instructions for setting up Sender and Receiver Application in Amazon Web Servic
 
 > Make these changes in the Receiver.war file without extracting.
 
-----
-1. AWSCredentials.properties	
-	Provide the AWS Credentials (Access Key Id and Secret Access Key)	
-2. whoami.txt
-	Enter your name and Bits ID	
-3. web.xml
-	Provide the Queue `URL`
-----
++ `AWSCredentials.properties` - Provide the AWS Credentials (Access Key Id and Secret Access Key)	
++ `whoami.txt` - Enter your name and Bits ID	
++ `web.xml` - Provide the Queue `URL`
+
+
+
 
 ***
+
+
 
 
 ## 3. Setting up NodeJs Sender
 
 > We need to make changes to the following files for setting up NodeJs
 
-...
-1. aws.credentials.json
-	
-	Provide the AWS Credentials (Access Key Id and Secret Access Key)
-	
-2. whoami.txt
-
-	Enter your name and Bits ID
-	
-3. sqsendpointdetails.txt
-
-	Provide the Queue `URL`	
-...
-
-
-
-
-
-
-
++ `aws.credentials.json` - Provide the AWS Credentials (Access Key Id and Secret Access Key)
++ `whoami.txt` - Enter your name and Bits ID
++ `sqsendpointdetails.txt` - Provide the Queue `URL`
