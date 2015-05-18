@@ -3,7 +3,7 @@
 Instructions for setting up Sender and Receiver Application in Amazon Web Service Elastic Beanstalk and making those two applications communicate using Simple Queue Service
 . 
 
-*[Assignment](https://github.com/prabhu-durasoft/ECIII)*
+*[Assignment link.](https://github.com/prabhu-durasoft/ECIII)*
 
 **Instructions are divided as follows,**
 
@@ -14,7 +14,7 @@ Instructions for setting up Sender and Receiver Application in Amazon Web Servic
 - Setting up NodeJs Sender
 - Setting up Java Receiver
 
-## Create AWS Credentials
+## 1. Creating AWS Credentials
 
 > **Navigate to Security Credentials Page.**
 
@@ -31,7 +31,10 @@ Instructions for setting up Sender and Receiver Application in Amazon Web Servic
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7671386/309c8a7a-fceb-11e4-9ed8-6c3188f73209.jpg)
 
 
-## Create an SQS Queue
+***
+
+
+## 2. Creating an SQS Queue
 
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7671382/307335d0-fceb-11e4-9203-2debb6db9612.jpg)
 
@@ -47,7 +50,20 @@ Instructions for setting up Sender and Receiver Application in Amazon Web Servic
 
 > **Your Queue `URL` will be available in the details tab. We will be using this `URL` for communication.**
 
-## Setting up NodeJs Sender
 
-## Setting up Java Receiver
+***
+
+
+## 3. Setting up NodeJs Sender
+
+
+***
+
+
+## 4. Setting up Java Receiver
+
+
+***
+
+
 
