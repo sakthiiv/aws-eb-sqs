@@ -60,11 +60,11 @@ Instructions for setting up Sender and Receiver Application in Amazon Web Servic
 
 ## 3. Setting up Java Receiver
 
+***
 > **[Download](https://drive.google.com/file/d/0BxLqTramfZucOGFDVkdLQmdDNHM/view?pli=1) Receiver.war file here.**
-
 > **We need to make changes to the following files for setting up Receiver in Tomcat.**
-
 > **Make these changes in the Receiver.war file <b>without extracting</b>.**
+***
 
 + `AWSCredentials.properties` - Provide the AWS Credentials (Access Key Id and Secret Access Key)	
 + `whoami.txt` - Enter your name and Bits ID	
@@ -128,7 +128,9 @@ Instructions for setting up Sender and Receiver Application in Amazon Web Servic
 
 ## 4. Setting up NodeJs Sender
 
+***
 > **We need to make changes to the following files for setting up NodeJs**
+***
 
 + `aws.credentials.json` - Provide the AWS Credentials (Access Key Id and Secret Access Key)
 + `whoami.txt` - Enter your name and Bits ID
@@ -136,7 +138,9 @@ Instructions for setting up Sender and Receiver Application in Amazon Web Servic
 
 <b>Make sure you are compressing the 5 files without placing it in a folder. In case there is a folder named `node_modules` delete it before uploading.</b>
 
+***
 > **Follow the same steps similar to the previous application till choosing an environment**
+***
 
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7673721/b64fe6f8-fd36-11e4-8e33-518557df4e87.jpg)
 
