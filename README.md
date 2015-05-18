@@ -62,43 +62,57 @@ Instructions for setting up Sender and Receiver Application in Amazon Web Servic
 
 ## 3. Setting up Java Receiver
 
-> [Download](https://drive.google.com/file/d/0BxLqTramfZucOGFDVkdLQmdDNHM/view?pli=1) Receiver.war file here.
+> **[Download](https://drive.google.com/file/d/0BxLqTramfZucOGFDVkdLQmdDNHM/view?pli=1) Receiver.war file here.**
 
-> We need to make changes to the following files for setting up Receiver in Tomcat.
+> **We need to make changes to the following files for setting up Receiver in Tomcat.**
 
-> Make these changes in the Receiver.war file <b>without extracting</b>.
+> **Make these changes in the Receiver.war file <b>without extracting</b>.**
 
 + `AWSCredentials.properties` - Provide the AWS Credentials (Access Key Id and Secret Access Key)	
 + `whoami.txt` - Enter your name and Bits ID	
 + `web.xml` - Provide the Queue `URL`
 
-> Navigate to Elastic Beanstalk.
+> **Navigate to Elastic Beanstalk.**
 
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7673732/b6abe124-fd36-11e4-996c-0349b12b9103.jpg)
 
-> Provide a name for the application.
+![screenshot](https://cloud.githubusercontent.com/assets/6268662/7674896/8e985114-fd4e-11e4-88f3-0ccc7ff4e2c0.jpg)
+
+***
+
+> **Provide a name for the application.**
 
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7673723/b67a90ec-fd36-11e4-899b-b3b77ecc06a2.jpg)
 
-> Create a new Web Server.
+***
+
+> **Create a new Web Server.**
 
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7673725/b68500cc-fd36-11e4-9307-11e8f3a42fbd.jpg)
 
-> Choose a default profile.
+***
+
+> **Choose a default profile.**
 
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7673724/b67c4a86-fd36-11e4-8898-8cda33e8bfff.jpg)
 
-> Choose an enviroment type.
+***
+
+> **Choose an enviroment type.**
 
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7673726/b68a289a-fd36-11e4-850e-5483af72ea67.jpg)
 
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7673728/b693dd22-fd36-11e4-9160-fb11498a2074.jpg)
 
-> Upload your zip file.
+***
+
+> **Upload your zip file.**
 
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7673729/b69cd3c8-fd36-11e4-9a21-2bb4e3a9666e.jpg)
 
-> Provide an environment URL.
+***
+
+> **Provide an environment URL.**
 
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7673730/b6a13d8c-fd36-11e4-88d2-231f194e78df.jpg)
 
@@ -108,13 +122,15 @@ Instructions for setting up Sender and Receiver Application in Amazon Web Servic
 
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7673727/b690f6b6-fd36-11e4-9ae1-fe0724576e4a.jpg)
 
-> Click on launch to launch your enviroment and be patient as it takes some time to initialize the environment.
+***
+
+> **Click on launch to launch your enviroment and be patient as it takes some time to initialize the environment.**
 
 ***
 
 ## 4. Setting up NodeJs Sender
 
-> We need to make changes to the following files for setting up NodeJs
+> **We need to make changes to the following files for setting up NodeJs**
 
 + `aws.credentials.json` - Provide the AWS Credentials (Access Key Id and Secret Access Key)
 + `whoami.txt` - Enter your name and Bits ID
@@ -122,10 +138,12 @@ Instructions for setting up Sender and Receiver Application in Amazon Web Servic
 
 <b>Make sure you are compressing the 5 files without placing it in a folder. In case there is a folder named `node_modules` delete it before uploading.</b>
 
-> Follow the same steps similar to the previous application till choosing an environment
+> **Follow the same steps similar to the previous application till choosing an environment**
 
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7673721/b64fe6f8-fd36-11e4-8e33-518557df4e87.jpg)
 
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7673728/b693dd22-fd36-11e4-9160-fb11498a2074.jpg)
 
-> Follow the steps as specified for the previous application
+***
+
+> **Follow the steps as specified for the previous application**
