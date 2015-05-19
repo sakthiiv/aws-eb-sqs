@@ -30,7 +30,7 @@ Instructions for setting up Sender and Receiver Application in Amazon Web Servic
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7671387/31317b4e-fceb-11e4-9551-a13fee233633.jpg)
 
 ***
-> **You will be prompted given an Access Key Id and Secret Access Key. We will be using these keys in out sender and** **receiver application.**
+> **You will be prompted with an Access Key Id and Secret Access Key. We will be using these keys in our sender and** **receiver application.**
 ***
 
 ![screenshot](https://cloud.githubusercontent.com/assets/6268662/7671386/309c8a7a-fceb-11e4-9ed8-6c3188f73209.jpg)
